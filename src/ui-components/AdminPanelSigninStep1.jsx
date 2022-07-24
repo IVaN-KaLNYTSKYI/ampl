@@ -5,11 +5,13 @@
  **************************************************************************/
 
 /* eslint-disable */
-import React from "react";
+import React, {useState} from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Icon, Text, View } from "@aws-amplify/ui-react";
+import {Redirect} from "react-router-dom";
 export default function AdminPanelSigninStep1(props) {
   const { overrides, ...rest } = props;
+  const [flag,setFlag] = useState(false)
   return (
     <View
       width="1277px"
@@ -21,6 +23,7 @@ export default function AdminPanelSigninStep1(props) {
       {...rest}
       {...getOverrideProps(overrides, "AdminPanelSigninStep1")}
     >
+      {flag&&<Redirect to={'/all'}/>}
       <View
         padding="0px 0px 0px 0px"
         width="350px"
@@ -28,6 +31,7 @@ export default function AdminPanelSigninStep1(props) {
         position="absolute"
         top="471px"
         left="463px"
+        onClick={()=>setFlag(true)}
         {...getOverrideProps(overrides, "Sign in_button")}
       >
         <View

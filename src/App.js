@@ -13,7 +13,7 @@ function App() {
                 <Route exact path={"/"}>
                     <AdminPanelSigninStep1 width={"100%"}/>
                 </Route>
-                <Route exact path={"/sigin"}>
+                <Route exact path={"/login"}>
                     <AdminPanelSigninStep2 width={"100%"}/>
                 </Route>
                 <Route exact path={"/all"}>
