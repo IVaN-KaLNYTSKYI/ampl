@@ -1,0 +1,142 @@
+.b2b-table{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    left: 50px;
+    top: 182px;
+
+    background: #FFFFFF;
+    border: 0.5px solid #D3DCE9;
+
+
+}
+.b2b-table-1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 500px;
+    left: 300px;
+    top: 182px;
+
+    background: #FFFFFF;
+    border: 0.5px solid #D3DCE9;
+
+}
+.b2b-table-2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 150px;
+    height: 500px;
+    left: 500px;
+    top: 182px;
+
+    background: #FFFFFF;
+    border: 0.5px solid #D3DCE9;
+
+}
+.b2b-table-3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 650px;
+    top: 182px;
+
+    background: #FFFFFF;
+    border: 0.5px solid #D3DCE9;
+
+}
+.b2b-table-4{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    left: 950px;
+    top: 182px;
+
+    background: #FFFFFF;
+    border: 0.5px solid #D3DCE9;
+
+}
+.b2b-table-5{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    left: 1150px;
+    top: 182px;
+
+    background: #FFFFFF;
+
+}
+.line{
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height:80px;
+    border-bottom:1px solid #D3DCE9;
+}
+.line-1{
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height:80px;
+}
+.line span{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #585A67;
+}
+.main{
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main-text{
+    padding: 30px 20px 20px 20px;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #585A67;
+}
+.main-text-secret-key{
+    padding: 30px 20px 20px 20px;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #585A67;
+
+}

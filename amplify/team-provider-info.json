@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-retro-staging-154742-authRole",
+      "UnauthRoleArn": "arn:aws:iam::434677464524:role/amplify-retro-staging-154742-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::434677464524:role/amplify-retro-staging-154742-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-retro-staging-154742-deployment",
+      "UnauthRoleName": "amplify-retro-staging-154742-unauthRole",
+      "StackName": "amplify-retro-staging-154742",
+      "StackId": "arn:aws:cloudformation:us-east-1:434677464524:stack/amplify-retro-staging-154742/2213bab0-02c3-11ed-8ee2-0a72e4869fb9",
+      "AmplifyAppId": "d83v08asprnyx"
+    }
+  }
+}

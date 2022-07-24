@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Route,Link} from "react-router-dom";
+import {Switch} from "react-router-dom"
+import {AdminPanelSigninStep2,AdminPanelSigninStep1} from "./ui-components";
+import B2B from "./components/B2B";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Router>
+            <Switch>
+                <Route exact path={"/"}>
+                    <AdminPanelSigninStep1 width={"100%"}/>
+                </Route>
+                <Route exact path={"/sigin"}>
+                    <AdminPanelSigninStep2 width={"100%"}/>
+                </Route>
+                <Route exact path={"/all"}>
+                    <B2B/>
+                </Route>
+            </Switch>
+        </Router>
+    {/*      <ButtonSave detail={detail}/>*/}
     </div>
   );
 }
